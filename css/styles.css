@@ -175,12 +175,14 @@ img {
 }
 
 .hero-conteiner {
-  padding: 200px 237px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  margin: 0 auto;
   margin-bottom: 30px;
-
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -212,6 +214,10 @@ img {
 
 .benefits-list {
   display: flex;
+}
+
+.benefits-item {
+  width: calc((100% - 3 * 30px) / 4);
 }
 
 .benefits-item:not(:last-child) {
@@ -267,8 +273,13 @@ img {
   justify-content: space-between;
 }
 
-.command-img {
-  margin-bottom: 30px;
+.command-item {
+  width: calc((100% - 3 * 30px) / 4);
+}
+
+.command-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .command-name {
@@ -389,11 +400,8 @@ img {
   margin-right: 15px;
 }
 
-.portfolio-link > img {
-  margin-bottom: 20px;
-}
-
 .portfolio-down {
+  padding-top: 20px;
   padding-left: 24px;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
